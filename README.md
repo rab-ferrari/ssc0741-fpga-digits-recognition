@@ -8,6 +8,7 @@ This is the final project of the Design and Implementation of Embedded Systems I
 This project is divided as follows:
 * __hellopci__: Contains the Quartus II Project, Verilog code and some ModelSim tests for the FPGA and the modules.
 * __simple\_cnn__: Contains the C++ code implementing the CNN.
+* __report__: Written in portuguese, contains detailed description and references for the whole development process.
 
 Developed by:
 * Ilan S. G. de Figueiredo

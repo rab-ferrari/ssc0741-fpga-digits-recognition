@@ -1,0 +1,102 @@
+1 Extend Pool
+
+Train 0 err=22.2795
+Validation 0 err=16.5701
+2 Extend Pool
+
+Train 0 err=17.0502
+Validation 0 err=10.1363
+3 Extend Pool
+
+Train 0 err=14.5111
+Validation 0 err=8.6118
+4 Extend Pool
+
+Train 0 err=14.1243
+Validation 0 err=8.39735
+5 Extend Pool
+
+Train 0 err=13.3654
+Validation 0 err=8.63416
+6 Extend Pool
+
+Train 0 err=13.8936
+Validation 0 err=7.97005
+7 Extend Pool
+
+Train 0 err=14.7754
+Validation 0 err=9.95336
+8 Extend Pool
+
+Train 0 err=15.7713
+Validation 0 err=11.602
+9 Extend Pool
+
+Train 0 err=17.0147
+Validation 0 err=12.1924
+10 Extend Pool
+
+Train 0 err=19.9746
+Validation 0 err=14.1626
+11 Extend Pool
+
+Train 0 err=21.3277
+Validation 0 err=11.8806
+12 Extend Pool
+
+Train 0 err=23.0642
+Validation 0 err=8.93695
+13 Extend Pool
+
+Train 0 err=29.2089
+Validation 0 err=16.2789
+14 Extend Pool
+
+Train 0 err=36.8154
+Validation 0 err=22.2604
+15 Extend Pool
+
+Train 0 err=40.0721
+Validation 0 err=22.7793
+16 Extend Pool
+
+Train 0 err=41.8144
+Validation 0 err=19.368
+17 Extend Pool
+
+Train 0 err=46.4408
+Validation 0 err=27.2212
+18 Extend Pool
+
+Train 0 err=49.241
+Validation 0 err=30.0194
+19 Extend Pool
+
+Train 0 err=57.6724
+Validation 0 err=39.9885
+20 Extend Pool
+
+Train 0 err=55.7839
+Validation 0 err=35.7973
+21 Extend Pool
+
+Train 0 err=67.3239
+Validation 0 err=50.4038
+22 Extend Pool
+
+Train 0 err=71.9857
+Validation 0 err=56.2033
+23 Extend Pool
+
+Train 0 err=79.8491
+Validation 0 err=69.0108
+24 Extend Pool
+
+Train 0 err=49.9984
+Validation 0 err=50
+25 Extend Pool
+
+Train 0 err=49.9982
+Validation 0 err=50
+26 Extend Pool
+

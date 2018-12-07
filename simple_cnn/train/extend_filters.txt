@@ -1,0 +1,108 @@
+1 Extend
+
+Train 0 err=24.7072
+Validation 0 err=22.7052
+2 Extend
+
+Train 0 err=24.567
+Validation 0 err=22.1686
+3 Extend
+
+Train 0 err=24.5959
+Validation 0 err=21.8897
+4 Extend
+
+Train 0 err=24.0459
+Validation 0 err=21.3762
+5 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+6 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+7 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+8 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+9 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+10 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+11 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+12 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+13 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+14 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+15 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+16 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+17 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+18 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+19 Extend
+
+Train 0 err=50
+Validation 0 err=50
+20 Extend
+
+Train 0 err=50
+Validation 0 err=50
+21 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+22 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+23 Extend
+
+Train 0 err=50
+Validation 0 err=50
+24 Extend
+
+Train 0 err=49.9999
+Validation 0 err=50
+25 Extend
+
+Train 0 err=50
+Validation 0 err=50
+26 Extend
+
+Train 0 err=50
+Validation 0 err=50
+27 Extend
+
+Train 0 err=50
+Validation 0 err=50

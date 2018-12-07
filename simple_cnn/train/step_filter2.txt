@@ -1,0 +1,6 @@
+1 Step
+
+Train 0 err=11.4585
+Validation 0 err=6.68059
+2 Step
+

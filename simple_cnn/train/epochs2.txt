@@ -1,0 +1,30 @@
+Train 1 err=11.4693
+Validation 1 err=6.72487
+
+Train 2 err=8.91716
+Validation 2 err=6.31451
+
+Train 3 err=7.86951
+Validation 3 err=6.11737
+
+Train 4 err=7.29741
+Validation 4 err=5.95914
+
+Train 5 err=6.93212
+Validation 5 err=5.87721
+
+Train 6 err=6.67704
+Validation 6 err=5.82524
+
+Train 7 err=6.48973
+Validation 7 err=5.79777
+
+Train 8 err=6.34455
+Validation 8 err=5.7819
+
+Train 9 err=6.22998
+Validation 9 err=5.7537
+
+Train 10 err=6.13843
+Validation 10 err=5.69564
+

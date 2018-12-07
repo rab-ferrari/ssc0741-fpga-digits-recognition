@@ -1,0 +1,318 @@
+1 Filters
+
+Train 0 err=24.0961
+Validation 0 err=21.3425
+2 Filters
+
+Train 0 err=23.5473
+Validation 0 err=21.5708
+3 Filters
+
+Train 0 err=23.4519
+Validation 0 err=19.4372
+4 Filters
+
+Train 0 err=23.6356
+Validation 0 err=19.9963
+5 Filters
+
+Train 0 err=22.7899
+Validation 0 err=17.0077
+6 Filters
+
+Train 0 err=22.6474
+Validation 0 err=17.3362
+7 Filters
+
+Train 0 err=22.2894
+Validation 0 err=15.3541
+8 Filters
+
+Train 0 err=21.9682
+Validation 0 err=14.9247
+9 Filters
+
+Train 0 err=21.4812
+Validation 0 err=14.5415
+10 Filters
+
+Train 0 err=20.7015
+Validation 0 err=13.4624
+11 Filters
+
+Train 0 err=21.6595
+Validation 0 err=14.4422
+12 Filters
+
+Train 0 err=22.3454
+Validation 0 err=15.6149
+13 Filters
+
+Train 0 err=21.7131
+Validation 0 err=14.5949
+14 Filters
+
+Train 0 err=21.8611
+Validation 0 err=15.1982
+15 Filters
+
+Train 0 err=21.1
+Validation 0 err=14.2666
+16 Filters
+
+Train 0 err=20.9896
+Validation 0 err=13.919
+17 Filters
+
+Train 0 err=21.4655
+Validation 0 err=13.991
+18 Filters
+
+Train 0 err=21.1852
+Validation 0 err=13.3594
+19 Filters
+
+Train 0 err=21.0497
+Validation 0 err=13.6899
+20 Filters
+
+Train 0 err=20.626
+Validation 0 err=13.3559
+21 Filters
+
+Train 0 err=21.2151
+Validation 0 err=13.5005
+22 Filters
+
+Train 0 err=20.8075
+Validation 0 err=13.1184
+23 Filters
+
+Train 0 err=20.8949
+Validation 0 err=13.3036
+24 Filters
+
+Train 0 err=20.6671
+Validation 0 err=13.6699
+25 Filters
+
+Train 0 err=20.7815
+Validation 0 err=13.4946
+26 Filters
+
+Train 0 err=20.4271
+Validation 0 err=12.9464
+27 Filters
+
+Train 0 err=20.6916
+Validation 0 err=13.2819
+28 Filters
+
+Train 0 err=20.6852
+Validation 0 err=13.1892
+29 Filters
+
+Train 0 err=20.9781
+Validation 0 err=13.3899
+30 Filters
+
+Train 0 err=20.464
+Validation 0 err=13.1721
+31 Filters
+
+Train 0 err=20.6241
+Validation 0 err=13.4175
+32 Filters
+
+Train 0 err=20.3357
+Validation 0 err=13.0274
+33 Filters
+
+Train 0 err=20.3584
+Validation 0 err=13.0477
+34 Filters
+
+Train 0 err=20.3504
+Validation 0 err=13.1175
+35 Filters
+
+Train 0 err=20.4575
+Validation 0 err=13.0862
+36 Filters
+
+Train 0 err=20.0759
+Validation 0 err=12.5912
+37 Filters
+
+Train 0 err=20.6159
+Validation 0 err=13.2388
+38 Filters
+
+Train 0 err=20.1713
+Validation 0 err=12.854
+39 Filters
+
+Train 0 err=19.9211
+Validation 0 err=12.7661
+40 Filters
+
+Train 0 err=19.4595
+Validation 0 err=12.5417
+41 Filters
+
+Train 0 err=19.7157
+Validation 0 err=12.7559
+42 Filters
+
+Train 0 err=20.1994
+Validation 0 err=12.8368
+43 Filters
+
+Train 0 err=20.0534
+Validation 0 err=12.803
+44 Filters
+
+Train 0 err=20.6226
+Validation 0 err=13.0783
+45 Filters
+
+Train 0 err=20.3556
+Validation 0 err=13.0684
+46 Filters
+
+Train 0 err=19.8741
+Validation 0 err=12.7738
+47 Filters
+
+Train 0 err=20.3354
+Validation 0 err=13.0548
+48 Filters
+
+Train 0 err=19.9404
+Validation 0 err=12.7513
+49 Filters
+
+Train 0 err=20.4964
+Validation 0 err=13.0156
+50 Filters
+
+Train 0 err=20.1322
+Validation 0 err=12.9009
+51 Filters
+
+Train 0 err=20.0767
+Validation 0 err=12.7468
+52 Filters
+
+Train 0 err=20.1499
+Validation 0 err=12.8668
+53 Filters
+
+Train 0 err=19.8964
+Validation 0 err=12.6749
+54 Filters
+
+Train 0 err=19.8562
+Validation 0 err=12.4034
+55 Filters
+
+Train 0 err=19.6774
+Validation 0 err=12.5734
+56 Filters
+
+Train 0 err=19.7599
+Validation 0 err=12.6895
+57 Filters
+
+Train 0 err=20.0333
+Validation 0 err=12.7681
+58 Filters
+
+Train 0 err=19.7267
+Validation 0 err=12.7922
+59 Filters
+
+Train 0 err=19.477
+Validation 0 err=12.3597
+60 Filters
+
+Train 0 err=19.5555
+Validation 0 err=12.6139
+61 Filters
+
+Train 0 err=19.9611
+Validation 0 err=12.4721
+62 Filters
+
+Train 0 err=19.4091
+Validation 0 err=12.4762
+63 Filters
+
+Train 0 err=19.7442
+Validation 0 err=12.8424
+64 Filters
+
+Train 0 err=19.6481
+Validation 0 err=12.6203
+65 Filters
+
+Train 0 err=20.1949
+Validation 0 err=12.9991
+66 Filters
+
+Train 0 err=19.9166
+Validation 0 err=12.7042
+67 Filters
+
+Train 0 err=19.8998
+Validation 0 err=12.7254
+68 Filters
+
+Train 0 err=19.7225
+Validation 0 err=12.5586
+69 Filters
+
+Train 0 err=19.946
+Validation 0 err=12.7571
+70 Filters
+
+Train 0 err=20.2751
+Validation 0 err=12.9479
+71 Filters
+
+Train 0 err=19.4705
+Validation 0 err=12.4394
+72 Filters
+
+Train 0 err=19.6749
+Validation 0 err=12.725
+73 Filters
+
+Train 0 err=19.3669
+Validation 0 err=12.4744
+74 Filters
+
+Train 0 err=19.69
+Validation 0 err=12.6695
+75 Filters
+
+Train 0 err=19.8161
+Validation 0 err=12.546
+76 Filters
+
+Train 0 err=19.8191
+Validation 0 err=12.3368
+77 Filters
+
+Train 0 err=19.7185
+Validation 0 err=12.3918
+78 Filters
+
+Train 0 err=19.9589
+Validation 0 err=12.618
+79 Filters
+
+Train 0 err=19.6155
+Validation 0 err=12.5119
+80 Filters
+

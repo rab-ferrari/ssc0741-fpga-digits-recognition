@@ -1,0 +1,6 @@
+1 Step Pool
+
+Train 0 err=13.9996
+Validation 0 err=9.00341
+2 Step Pool
+

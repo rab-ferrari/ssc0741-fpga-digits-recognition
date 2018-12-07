@@ -1,0 +1,16 @@
+1 Step
+
+Train 0 err=22.2795
+Validation 0 err=16.5701
+2 Step
+
+Train 0 err=25.5829
+Validation 0 err=21.8724
+3 Step
+
+Train 0 err=27.2656
+Validation 0 err=23.3899
+4 Step
+
+Train 0 err=30.0553
+Validation 0 err=24.1855

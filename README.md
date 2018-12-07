@@ -13,4 +13,4 @@ Developed by:
 * Kollins G. Lima (kollins.lima@usp.br) 
 * Rodrigo A. B. Ferrari
 
-Professor: Vanderlei Bonato
+Instructor: Vanderlei Bonato

@@ -15,6 +15,7 @@ Developed by:
 * Rodrigo A. B. Ferrari (rodrigo.ferrari@usp.br)
 
 Instructor: Prof. Vanderlei Bonato (vbonato@icmc.usp.br)
+
 TA: Leandro de Souza Rosa (leandrors@usp.br)
 
 Date: December 7th, 2018.

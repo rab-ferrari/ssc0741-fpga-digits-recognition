@@ -1,0 +1,672 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do pcihello_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/register.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:14 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/register.v 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 15:03:14 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/shift.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:14 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/shift.v 
+# -- Compiling module shift
+# 
+# Top level modules:
+# 	shift
+# End time: 15:03:14 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/mac.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:14 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/mac.v 
+# -- Compiling module mac
+# 
+# Top level modules:
+# 	mac
+# End time: 15:03:14 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/conv.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:14 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/conv.v 
+# -- Compiling module conv
+# 
+# Top level modules:
+# 	conv
+# End time: 15:03:14 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihello.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:15 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihello.v 
+# -- Compiling module pcihello
+# 
+# Top level modules:
+# 	pcihello
+# End time: 15:03:15 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0_altgx_internal.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:15 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0_altgx_internal.v 
+# -- Compiling module pcihellocore_pcie_hard_ip_0_altgx_internal_alt_c3gxb_svh8
+# -- Compiling module pcihellocore_pcie_hard_ip_0_altgx_internal
+# 
+# Top level modules:
+# 	pcihellocore_pcie_hard_ip_0_altgx_internal
+# End time: 15:03:15 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:15 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0.v 
+# -- Compiling module pcihellocore_pcie_hard_ip_0
+# 
+# Top level modules:
+# 	pcihellocore_pcie_hard_ip_0
+# End time: 15:03:15 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_inport.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:15 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_inport.v 
+# -- Compiling module pcihellocore_inport
+# 
+# Top level modules:
+# 	pcihellocore_inport
+# End time: 15:03:15 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_hexport.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:15 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_hexport.v 
+# -- Compiling module pcihellocore_hexport
+# 
+# Top level modules:
+# 	pcihellocore_hexport
+# End time: 15:03:15 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txresp_cntrl.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:15 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txresp_cntrl.v 
+# -- Compiling module altpciexpav_stif_txresp_cntrl
+# 
+# Top level modules:
+# 	altpciexpav_stif_txresp_cntrl
+# End time: 15:03:15 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txavl_cntrl.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:16 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txavl_cntrl.v 
+# -- Compiling module altpciexpav_stif_txavl_cntrl
+# 
+# Top level modules:
+# 	altpciexpav_stif_txavl_cntrl
+# End time: 15:03:16 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx_cntrl.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:16 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx_cntrl.v 
+# -- Compiling module altpciexpav_stif_tx_cntrl
+# 
+# Top level modules:
+# 	altpciexpav_stif_tx_cntrl
+# End time: 15:03:16 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:16 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx.v 
+# -- Compiling module altpciexpav_stif_tx
+# 
+# Top level modules:
+# 	altpciexpav_stif_tx
+# End time: 15:03:16 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_resp.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:16 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_resp.v 
+# -- Compiling module altpciexpav_stif_rx_resp
+# 
+# Top level modules:
+# 	altpciexpav_stif_rx_resp
+# End time: 15:03:16 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_cntrl.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:16 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_cntrl.v 
+# -- Compiling module altpciexpav_stif_rx_cntrl
+# 
+# Top level modules:
+# 	altpciexpav_stif_rx_cntrl
+# End time: 15:03:16 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:16 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx.v 
+# -- Compiling module altpciexpav_stif_rx
+# 
+# Top level modules:
+# 	altpciexpav_stif_rx
+# End time: 15:03:16 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_p2a_addrtrans.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:16 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_p2a_addrtrans.v 
+# -- Compiling module altpciexpav_stif_p2a_addrtrans
+# 
+# Top level modules:
+# 	altpciexpav_stif_p2a_addrtrans
+# End time: 15:03:16 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_mailbox.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:16 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_mailbox.v 
+# -- Compiling module altpciexpav_stif_cr_mailbox
+# 
+# Top level modules:
+# 	altpciexpav_stif_cr_mailbox
+# End time: 15:03:17 on Dec 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_interrupt.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:17 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_interrupt.v 
+# -- Compiling module altpciexpav_stif_cr_interrupt
+# 
+# Top level modules:
+# 	altpciexpav_stif_cr_interrupt
+# End time: 15:03:17 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_avalon.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:17 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_avalon.v 
+# -- Compiling module altpciexpav_stif_cr_avalon
+# 
+# Top level modules:
+# 	altpciexpav_stif_cr_avalon
+# End time: 15:03:17 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_control_register.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:17 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_control_register.v 
+# -- Compiling module altpciexpav_stif_control_register
+# 
+# Top level modules:
+# 	altpciexpav_stif_control_register
+# End time: 15:03:17 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_app.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:17 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_app.v 
+# -- Compiling module altpciexpav_stif_app
+# 
+# Top level modules:
+# 	altpciexpav_stif_app
+# End time: 15:03:17 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_fixtrans.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:17 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_fixtrans.v 
+# -- Compiling module altpciexpav_stif_a2p_fixtrans
+# 
+# Top level modules:
+# 	altpciexpav_stif_a2p_fixtrans
+# End time: 15:03:17 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_addrtrans.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:17 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_addrtrans.v 
+# -- Compiling module altpciexpav_stif_a2p_addrtrans
+# 
+# Top level modules:
+# 	altpciexpav_stif_a2p_addrtrans
+# End time: 15:03:17 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_clksync.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:17 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_clksync.v 
+# -- Compiling module altpciexpav_clksync
+# 
+# Top level modules:
+# 	altpciexpav_clksync
+# End time: 15:03:17 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_rs_serdes.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:18 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_rs_serdes.v 
+# -- Compiling module altpcie_rs_serdes
+# 
+# Top level modules:
+# 	altpcie_rs_serdes
+# End time: 15:03:18 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pipe_interface.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:18 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pipe_interface.v 
+# -- Compiling module altpcie_pipe_interface
+# 
+# Top level modules:
+# 	altpcie_pipe_interface
+# End time: 15:03:18 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pcie_reconfig_bridge.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:18 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pcie_reconfig_bridge.v 
+# -- Compiling module altpcie_pcie_reconfig_bridge
+# 
+# Top level modules:
+# 	altpcie_pcie_reconfig_bridge
+# End time: 15:03:18 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:18 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v 
+# -- Compiling module altpcie_hip_pipen1b_qsys
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3454): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3457): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3462): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3464): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3465): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3467): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3474): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3476): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3485): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3487): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3491): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3492): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# -- Compiling module alt4gxb_reset_controller
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(3731): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# -- Compiling module altpcie_txcred_patch
+# ** Warning: (vlog-2083) C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v(4135): Carriage return (0x0D) is not followed by a newline (0x0A).
+# 
+# -- Compiling module altpcie_tl_cfg_pipe
+# 
+# Top level modules:
+# 	altpcie_hip_pipen1b_qsys
+# End time: 15:03:18 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 14
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:18 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 15:03:18 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:18 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 15:03:18 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_pcie_hard_ip_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:18 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_pcie_hard_ip_reset_controller.v 
+# -- Compiling module altera_pcie_hard_ip_reset_controller
+# 
+# Top level modules:
+# 	altera_pcie_hard_ip_reset_controller
+# End time: 15:03:18 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/pcihellocore.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:19 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/pcihellocore.v 
+# -- Compiling module pcihellocore
+# 
+# Top level modules:
+# 	pcihellocore
+# End time: 15:03:19 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlib pcihellocore
+# vmap pcihellocore pcihellocore
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet pcihellocore pcihellocore 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altpciexpav_stif_cfg_status.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:19 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altpciexpav_stif_cfg_status.v 
+# -- Compiling module altpciexpav_stif_cfg_status
+# 
+# Top level modules:
+# 	altpciexpav_stif_cfg_status
+# End time: 15:03:19 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:19 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0.v 
+# -- Compiling module pcihellocore_mm_interconnect_0
+# 
+# Top level modules:
+# 	pcihellocore_mm_interconnect_0
+# End time: 15:03:19 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules {C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_irq_mapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:19 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules" C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_irq_mapper.sv 
+# -- Compiling module pcihellocore_irq_mapper
+# 
+# Top level modules:
+# 	pcihellocore_irq_mapper
+# End time: 15:03:19 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:19 on Dec 03,2018
+# vlog -reportprogress 300 -vlog01compat -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 15:03:19 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_address_alignment.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:19 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_address_alignment.sv 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 15:03:20 on Dec 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:20 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_arbitrator.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 15:03:20 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_burst_adapter.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:20 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_burst_adapter.sv 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 15:03:20 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_burst_adapter_13_1.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:20 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_burst_adapter_13_1.sv 
+# -- Compiling module altera_merlin_burst_adapter_burstwrap_increment
+# -- Compiling module altera_merlin_burst_adapter_adder
+# -- Compiling module altera_merlin_burst_adapter_subtractor
+# -- Compiling module altera_merlin_burst_adapter_min
+# -- Compiling module altera_merlin_burst_adapter_13_1
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_13_1
+# End time: 15:03:20 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_burst_uncompressor.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:20 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_burst_uncompressor.sv 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 15:03:20 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_master_agent.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:20 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_master_agent.sv 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 15:03:20 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_master_translator.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:20 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_master_translator.sv 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 15:03:20 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_agent.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:20 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_agent.sv 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_agent.sv(597): (vlog-2186) SystemVerilog testbench feature
+# 
+# (randomization, coverage or assertion) detected in the design.
+# 
+# These features are only supported in Questasim.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_agent.sv(479): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_agent.sv(480): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_agent.sv(481): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_agent.sv(482): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# 
+# (randomization, coverage or assertion) detected in the design.
+# 
+# These features are only supported in Questasim.
+# 
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 15:03:20 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_translator.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:21 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_slave_translator.sv 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 15:03:21 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:21 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv 
+# -- Compiling module altera_merlin_traffic_limiter
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(514): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(586): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(587): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(588): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(589): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(590): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(591): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(596): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(598): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(601): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(602): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(629): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(631): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(632): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(633): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(634): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(635): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(640): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(642): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(645): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv(646): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# 
+# Top level modules:
+# 	altera_merlin_traffic_limiter
+# End time: 15:03:21 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_width_adapter.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:21 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/altera_merlin_width_adapter.sv 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 15:03:21 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_cmd_demux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:21 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_cmd_demux.sv 
+# -- Compiling module pcihellocore_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	pcihellocore_mm_interconnect_0_cmd_demux
+# End time: 15:03:21 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_cmd_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:21 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_cmd_mux.sv 
+# -- Compiling module pcihellocore_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	pcihellocore_mm_interconnect_0_cmd_mux
+# End time: 15:03:21 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_router.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:21 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_router.sv 
+# -- Compiling module pcihellocore_mm_interconnect_0_router_default_decode
+# -- Compiling module pcihellocore_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	pcihellocore_mm_interconnect_0_router
+# End time: 15:03:21 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_router_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:21 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_router_001.sv 
+# -- Compiling module pcihellocore_mm_interconnect_0_router_001_default_decode
+# -- Compiling module pcihellocore_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	pcihellocore_mm_interconnect_0_router_001
+# End time: 15:03:22 on Dec 03,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_router_004.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:22 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_router_004.sv 
+# -- Compiling module pcihellocore_mm_interconnect_0_router_004_default_decode
+# -- Compiling module pcihellocore_mm_interconnect_0_router_004
+# 
+# Top level modules:
+# 	pcihellocore_mm_interconnect_0_router_004
+# End time: 15:03:22 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_rsp_demux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:22 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_rsp_demux.sv 
+# -- Compiling module pcihellocore_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	pcihellocore_mm_interconnect_0_rsp_demux
+# End time: 15:03:22 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work pcihellocore +incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules {c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_rsp_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 15:03:22 on Dec 03,2018
+# vlog -reportprogress 300 -sv -work pcihellocore "+incdir+c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules" c:/users/8006421.usuarios/documents/hellopci/hellopci/source/fpga/pcihello_restored/db/ip/pcihellocore/submodules/pcihellocore_mm_interconnect_0_rsp_mux.sv 
+# -- Compiling module pcihellocore_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	pcihellocore_mm_interconnect_0_rsp_mux
+# End time: 15:03:22 on Dec 03,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

@@ -1,0 +1,811 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/simulation/modelsim
+valt4gxb_reset_controller
+Z1 !s110 1543856598
+!i10b 1
+!s100 fhWo<o8C;iaV51TO`?`b82
+IIcYmVTGQfd==;=D?LK<k<3
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z3 w1371558257
+Z4 8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v
+Z5 FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v
+L0 3493
+Z6 OV;L;10.3c;59
+r1
+!s85 0
+31
+Z7 !s108 1543856598.436000
+Z8 !s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules
+valtera_pcie_hard_ip_reset_controller
+R1
+!i10b 1
+!s100 E>=l3_HnmKF0SH0ba_0?52
+IFi^0BE_cHjcCDO:Y96_2m1
+R2
+R0
+Z12 w1371558262
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_pcie_hard_ip_reset_controller.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_pcie_hard_ip_reset_controller.v
+L0 34
+R6
+r1
+!s85 0
+31
+!s108 1543856598.935000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_pcie_hard_ip_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_pcie_hard_ip_reset_controller.v|
+!i113 1
+R10
+R11
+valtera_reset_controller
+R1
+!i10b 1
+!s100 VEhLaE^KT@RiagZkfkKI93
+IEQCk1QgG>ifSMzTe2b0?A3
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_controller.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_controller.v
+Z13 L0 42
+R6
+r1
+!s85 0
+31
+!s108 1543856598.773000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R10
+R11
+valtera_reset_synchronizer
+R1
+!i10b 1
+!s100 UTD:?4E=?>;X@do<;V;hQ1
+IK9Qe7X<84@]1]l2>F@jTV3
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R6
+r1
+!s85 0
+31
+!s108 1543856598.656000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R10
+R11
+valtpcie_hip_pipen1b_qsys
+R1
+!i10b 1
+!s100 o0iY9UJ1V]d<3cl^HPLcg1
+I[M;I:JOKl>PEoR;k7OZ`00
+R2
+R0
+R3
+R4
+R5
+L0 22
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtpcie_pcie_reconfig_bridge
+R1
+!i10b 1
+!s100 >@;4eeL<JgP7ak@4CU8ak2
+I9bFUD2Tea2iQTM<cSmEO^1
+R2
+R0
+R12
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pcie_reconfig_bridge.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pcie_reconfig_bridge.v
+L0 77
+R6
+r1
+!s85 0
+31
+!s108 1543856598.319000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pcie_reconfig_bridge.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pcie_reconfig_bridge.v|
+!i113 1
+R10
+R11
+valtpcie_pipe_interface
+R1
+!i10b 1
+!s100 dhANSHR04>>gH7^0g3I`P3
+IYg]mo8HOedP:=YDja;dY72
+R2
+R0
+R12
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pipe_interface.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pipe_interface.v
+Z14 L0 20
+R6
+r1
+!s85 0
+31
+!s108 1543856598.186000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pipe_interface.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_pipe_interface.v|
+!i113 1
+R10
+R11
+valtpcie_rs_serdes
+R1
+!i10b 1
+!s100 2oi^X@mI2Xn3a1Q4Y_8`f1
+IVa?=g^KNBh[5P0TmY`:KN1
+R2
+R0
+R12
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_rs_serdes.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_rs_serdes.v
+L0 33
+R6
+r1
+!s85 0
+31
+!s108 1543856598.065000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_rs_serdes.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpcie_rs_serdes.v|
+!i113 1
+R10
+R11
+valtpcie_tl_cfg_pipe
+R1
+!i10b 1
+!s100 6<I4N5lZ@]0hi>o_hI=G>1
+I>6`T4b<LVch28ebA@9lO?0
+R2
+R0
+R3
+R4
+R5
+L0 4141
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtpcie_txcred_patch
+R1
+!i10b 1
+!s100 Nn4B`F@MGkYWd`Q7US7m22
+Igng;ZmMXhNI=CaIIzi9d]1
+R2
+R0
+R3
+R4
+R5
+L0 3737
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valtpciexpav_clksync
+Z15 !s110 1543856597
+!i10b 1
+!s100 [Jk[IYCZYfoXP=]McVUSQ1
+IT;ghkGHa0>ACBO7^<=jlV0
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_clksync.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_clksync.v
+Z16 L0 48
+R6
+r1
+!s85 0
+31
+!s108 1543856597.923000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_clksync.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_clksync.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_a2p_addrtrans
+R15
+!i10b 1
+!s100 GfhVYjj0?z5684F7loD^l2
+Ig^=U_dGE>eNg_bFa]cda50
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_addrtrans.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_addrtrans.v
+R13
+R6
+r1
+!s85 0
+31
+!s108 1543856597.803000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_addrtrans.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_addrtrans.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_a2p_fixtrans
+R15
+!i10b 1
+!s100 ?mgG_i2hLK1a2i1l[8UzW1
+I1Ic48CR6d`UVjFnhLd0EV1
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_fixtrans.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_fixtrans.v
+R13
+R6
+r1
+!s85 0
+31
+!s108 1543856597.585000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_fixtrans.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_fixtrans.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_app
+R15
+!i10b 1
+!s100 Z[CO@8ad?9I9=J]47;QLT1
+ImFHo2d2L1CMAcKCD2@Vdb1
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_app.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_app.v
+Z17 L0 19
+R6
+r1
+!s85 0
+31
+!s108 1543856597.456000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_app.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_app.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_control_register
+R15
+!i10b 1
+!s100 E>n6XkhkJmdU9h_B6aLZ<0
+IG;X;3O5X_N0jTUf=XJFQf2
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_control_register.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_control_register.v
+L0 47
+R6
+r1
+!s85 0
+31
+!s108 1543856597.335000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_control_register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_control_register.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_cr_avalon
+R15
+!i10b 1
+!s100 K7BK^H1;Ab>zm^]9Az[3[3
+IZEoTCdBa<PBb0B@EYKJ193
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_avalon.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_avalon.v
+L0 93
+R6
+r1
+!s85 0
+31
+!s108 1543856597.214000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_avalon.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_avalon.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_cr_interrupt
+R15
+!i10b 1
+!s100 9<XkiCZVj=zLS]61zLY?m3
+I@DjJY2a20MHNX391KSV8d1
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_interrupt.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_interrupt.v
+L0 55
+R6
+r1
+!s85 0
+31
+!s108 1543856597.093000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_interrupt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_interrupt.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_cr_mailbox
+Z18 !s110 1543856596
+!i10b 1
+!s100 P<6Te<gc^B]?jLXDbg4^;2
+I7H0dgmGb`joJgbGkOzOXf1
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_mailbox.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_mailbox.v
+L0 71
+R6
+r1
+!s85 0
+31
+!s108 1543856596.977000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_mailbox.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_cr_mailbox.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_p2a_addrtrans
+R18
+!i10b 1
+!s100 M^CnO59EN:3lfK<4n6k`73
+Ibk:BZLQn6^lO7hL<YQ>fl3
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_p2a_addrtrans.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_p2a_addrtrans.v
+Z19 L0 17
+R6
+r1
+!s85 0
+31
+!s108 1543856596.847000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_p2a_addrtrans.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_p2a_addrtrans.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_rx
+R18
+!i10b 1
+!s100 zA^EHdX`6Sd6VYge<<DYL2
+IjJZJ1D[bKXhDn_8I3k2Zj0
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx.v
+R19
+R6
+r1
+!s85 0
+31
+!s108 1543856596.727000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_rx_cntrl
+R18
+!i10b 1
+!s100 ^JD0mS:_4HkU^E<O1ZUMc1
+IVoK5d3SGPh;aL:OlQ;mN30
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_cntrl.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_cntrl.v
+R14
+R6
+r1
+!s85 0
+31
+!s108 1543856596.597000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_cntrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_cntrl.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_rx_resp
+R18
+!i10b 1
+!s100 ^FdQaPXhBC]6h7abcUT762
+I1=^N523Angf04MM;a=3Un0
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_resp.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_resp.v
+R17
+R6
+r1
+!s85 0
+31
+!s108 1543856596.480000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_resp.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_rx_resp.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_tx
+R18
+!i10b 1
+!s100 2gZjI6odLTAo?00S5h1<h1
+IWIUjU5f>g?H?ZOLPLVOnQ0
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx.v
+R19
+R6
+r1
+!s85 0
+31
+!s108 1543856596.356000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_tx_cntrl
+R18
+!i10b 1
+!s100 hDA9JLN6;B[dc^<41k36E2
+I@[69^cKQKXGjGmcz3QYC62
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx_cntrl.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx_cntrl.v
+R19
+R6
+r1
+!s85 0
+31
+!s108 1543856596.210000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx_cntrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_tx_cntrl.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_txavl_cntrl
+R18
+!i10b 1
+!s100 >[EIDbnHHWdYYLekE72;m1
+I?^_5Db[mPB;a6mbS14MUh1
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txavl_cntrl.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txavl_cntrl.v
+R17
+R6
+r1
+!s85 0
+31
+!s108 1543856596.068000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txavl_cntrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txavl_cntrl.v|
+!i113 1
+R10
+R11
+valtpciexpav_stif_txresp_cntrl
+Z20 !s110 1543856595
+!i10b 1
+!s100 F`g1NEM8;Z`Li:oOgD6o;1
+ImH50mc=cd@jf[aF0^7I;T1
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txresp_cntrl.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txresp_cntrl.v
+R17
+R6
+r1
+!s85 0
+31
+!s108 1543856595.909000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txresp_cntrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altpciexpav_stif_txresp_cntrl.v|
+!i113 1
+R10
+R11
+vconv
+Z21 !s110 1543856594
+!i10b 1
+!s100 ezmda2lHCO;Y6SXJ]W<4D3
+I?B@Od@9hBZ]m1nE0:7]le2
+R2
+R0
+w1543855261
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/conv.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/conv.v
+L0 3
+R6
+r1
+!s85 0
+31
+!s108 1543856594.921000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/conv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/conv.v|
+!i113 1
+R10
+Z22 !s92 -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored
+vmac
+R21
+!i10b 1
+!s100 o<K?<I;JSC:@85?0=1Qao3
+I9SY18IL_9@N<96OUkbIaX0
+R2
+R0
+w1543843077
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/mac.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/mac.v
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1543856594.772000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/mac.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/mac.v|
+!i113 1
+R10
+R22
+vpcihello
+R20
+!i10b 1
+!s100 1=g8=^]kk0D820WfO`OzO1
+I2FlXGY6Q3N8]amEBUOo7G1
+R2
+R0
+w1543855896
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihello.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihello.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1543856595.052000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihello.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihello.v|
+!i113 1
+R10
+R22
+vpcihellocore
+Z23 !s110 1543856599
+!i10b 1
+!s100 LKonYZ?VedUFN>]AV]1_80
+IGWGej3I9X?a@;kD0>XQ[O2
+R2
+R0
+w1371558245
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/pcihellocore.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/pcihellocore.v
+L0 6
+R6
+r1
+!s85 0
+31
+!s108 1543856599.106000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/pcihellocore.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/pcihellocore.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis
+vpcihellocore_hexport
+R20
+!i10b 1
+!s100 4M@R_`LbUd=[BDZeeAQgh2
+IQo[]AB4LVb1zBNW6;=l>f2
+R2
+R0
+w1371558251
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_hexport.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_hexport.v
+Z24 L0 21
+R6
+r1
+!s85 0
+31
+!s108 1543856595.727000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_hexport.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_hexport.v|
+!i113 1
+R10
+R11
+vpcihellocore_inport
+R20
+!i10b 1
+!s100 n]Sn9LI=e;f`DIS?_VZJV1
+I;[34kcAL>7zRzAI8;FQc62
+R2
+R0
+w1371558256
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_inport.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_inport.v
+R24
+R6
+r1
+!s85 0
+31
+!s108 1543856595.567000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_inport.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_inport.v|
+!i113 1
+R10
+R11
+vpcihellocore_irq_mapper
+DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+R23
+!i10b 1
+!s100 0z4_>iLRMa[ISXA^C360O3
+IKjno;VZa8YhJ_Lb0Qf]DJ3
+R2
+!s105 pcihellocore_irq_mapper_sv_unit
+S1
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_irq_mapper.sv
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_irq_mapper.sv
+L0 31
+R6
+r1
+!s85 0
+31
+!s108 1543856599.640000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_irq_mapper.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules
+vpcihellocore_pcie_hard_ip_0
+R20
+!i10b 1
+!s100 oG0zD@_m>^oVJK[E?n]>[0
+I`25ji0LL:29=220D?jZE?0
+R2
+R0
+R3
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0.v
+L0 9
+R6
+r1
+!s85 0
+31
+!s108 1543856595.381000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0.v|
+!i113 1
+R10
+R11
+vpcihellocore_pcie_hard_ip_0_altgx_internal
+R20
+!i10b 1
+!s100 mXCaU1WBMkoKB]nZTc?042
+IHmKE[?b16MZ0UkTR_2XcD3
+R2
+R0
+R12
+Z25 8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0_altgx_internal.v
+Z26 FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0_altgx_internal.v
+L0 995
+R6
+r1
+!s85 0
+31
+Z27 !s108 1543856595.214000
+Z28 !s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0_altgx_internal.v|
+Z29 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0_altgx_internal.v|
+!i113 1
+R10
+R11
+vpcihellocore_pcie_hard_ip_0_altgx_internal_alt_c3gxb_svh8
+R20
+!i10b 1
+!s100 1@6`Gcz9Dh2`Z3Ka]IB=E1
+ISfHEUVM7F@>8KjO[BDeML0
+R2
+R0
+R12
+R25
+R26
+R16
+R6
+r1
+!s85 0
+31
+R27
+R28
+R29
+!i113 1
+R10
+R11
+vregister
+R21
+!i10b 1
+!s100 PYPoT?OJG`:HRzdW8R?Jj3
+IX2RKhoLaU@X]P@>74hM2P2
+R2
+R0
+w1543181052
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/register.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/register.v
+L0 5
+R6
+r1
+!s85 0
+31
+!s108 1543856594.543000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/register.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/register.v|
+!i113 1
+R10
+R22
+vshift
+R21
+!i10b 1
+!s100 >f2gcAF75za[[Uzd`X5jn3
+IUBEm_`McK77@Jel]eN1Fh2
+R2
+R0
+w1542987700
+8C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/shift.v
+FC:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/shift.v
+L0 4
+R6
+r1
+!s85 0
+31
+!s108 1543856594.667000
+!s107 C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/shift.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored|C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/shift.v|
+!i113 1
+R10
+R22

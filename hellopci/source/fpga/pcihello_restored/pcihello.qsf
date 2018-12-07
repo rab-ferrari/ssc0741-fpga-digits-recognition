@@ -1,0 +1,361 @@
+#============================================================
+# Build by Terasic System Builder
+#============================================================
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE EP4CGX150DF31C7
+set_global_assignment -name TOP_LEVEL_ENTITY pcihello
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 12.0
+set_global_assignment -name LAST_QUARTUS_VERSION 14.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:29:44 JUNE 17,2013"
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 896
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+
+#============================================================
+# CLOCK
+#============================================================
+set_location_assignment PIN_AJ16 -to CLOCK_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK_50
+set_location_assignment PIN_A15 -to CLOCK2_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to CLOCK2_50
+set_location_assignment PIN_V11 -to CLOCK3_50
+set_instance_assignment -name IO_STANDARD "2.5 V" -to CLOCK3_50
+
+#============================================================
+# LED (High Active)
+#============================================================
+set_location_assignment PIN_T23 -to LEDR[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[0]
+set_location_assignment PIN_T24 -to LEDR[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[1]
+set_location_assignment PIN_V27 -to LEDR[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[2]
+set_location_assignment PIN_W25 -to LEDR[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[3]
+set_location_assignment PIN_T21 -to LEDR[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[4]
+set_location_assignment PIN_T26 -to LEDR[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[5]
+set_location_assignment PIN_R25 -to LEDR[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[6]
+set_location_assignment PIN_T27 -to LEDR[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[7]
+set_location_assignment PIN_P25 -to LEDR[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[8]
+set_location_assignment PIN_R24 -to LEDR[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[9]
+set_location_assignment PIN_P21 -to LEDR[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[10]
+set_location_assignment PIN_N24 -to LEDR[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[11]
+set_location_assignment PIN_N21 -to LEDR[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[12]
+set_location_assignment PIN_M25 -to LEDR[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[13]
+set_location_assignment PIN_K24 -to LEDR[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[14]
+set_location_assignment PIN_L25 -to LEDR[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[15]
+set_location_assignment PIN_M21 -to LEDR[16]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[16]
+set_location_assignment PIN_M22 -to LEDR[17]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDR[17]
+set_location_assignment PIN_AA25 -to LEDG[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[0]
+set_location_assignment PIN_AB25 -to LEDG[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[1]
+set_location_assignment PIN_F27 -to LEDG[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[2]
+set_location_assignment PIN_F26 -to LEDG[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[3]
+set_location_assignment PIN_W26 -to LEDG[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[4]
+set_location_assignment PIN_Y22 -to LEDG[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[5]
+set_location_assignment PIN_Y25 -to LEDG[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[6]
+set_location_assignment PIN_AA22 -to LEDG[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[7]
+set_location_assignment PIN_J25 -to LEDG[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to LEDG[8]
+
+#============================================================
+# KEY (Active Low)
+#============================================================
+set_location_assignment PIN_AA26 -to KEY[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to KEY[0]
+set_location_assignment PIN_AE25 -to KEY[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to KEY[1]
+set_location_assignment PIN_AF30 -to KEY[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to KEY[2]
+set_location_assignment PIN_AE26 -to KEY[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to KEY[3]
+
+#============================================================
+# SW
+#============================================================
+set_location_assignment PIN_V28 -to SW[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[0]
+set_location_assignment PIN_U30 -to SW[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[1]
+set_location_assignment PIN_V21 -to SW[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[2]
+set_location_assignment PIN_C2 -to SW[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[3]
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to SW[3]
+set_location_assignment PIN_AB30 -to SW[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[4]
+set_location_assignment PIN_U21 -to SW[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[5]
+set_location_assignment PIN_T28 -to SW[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[6]
+set_location_assignment PIN_R30 -to SW[7]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[7]
+set_location_assignment PIN_P30 -to SW[8]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[8]
+set_location_assignment PIN_R29 -to SW[9]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[9]
+set_location_assignment PIN_R26 -to SW[10]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[10]
+set_location_assignment PIN_N26 -to SW[11]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[11]
+set_location_assignment PIN_M26 -to SW[12]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[12]
+set_location_assignment PIN_N25 -to SW[13]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[13]
+set_location_assignment PIN_J26 -to SW[14]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[14]
+set_location_assignment PIN_K25 -to SW[15]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[15]
+set_location_assignment PIN_C30 -to SW[16]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[16]
+set_location_assignment PIN_H25 -to SW[17]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to SW[17]
+
+
+#============================================================
+# SEG7 (Low Active)
+#============================================================
+set_location_assignment PIN_E15 -to HEX0[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[0]
+set_location_assignment PIN_E12 -to HEX0[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[1]
+set_location_assignment PIN_G11 -to HEX0[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[2]
+set_location_assignment PIN_F11 -to HEX0[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[3]
+set_location_assignment PIN_F16 -to HEX0[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[4]
+set_location_assignment PIN_D16 -to HEX0[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[5]
+set_location_assignment PIN_F14 -to HEX0[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX0[6]
+set_location_assignment PIN_G14 -to HEX1[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[0]
+set_location_assignment PIN_B13 -to HEX1[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[1]
+set_location_assignment PIN_G13 -to HEX1[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[2]
+set_location_assignment PIN_F12 -to HEX1[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[3]
+set_location_assignment PIN_G12 -to HEX1[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[4]
+set_location_assignment PIN_J9 -to HEX1[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[5]
+set_location_assignment PIN_G10 -to HEX1[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX1[6]
+set_location_assignment PIN_G8 -to HEX2[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX2[0]
+set_location_assignment PIN_G7 -to HEX2[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX2[1]
+set_location_assignment PIN_F7 -to HEX2[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX2[2]
+set_location_assignment PIN_AG30 -to HEX2[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX2[3]
+set_location_assignment PIN_F6 -to HEX2[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX2[4]
+set_location_assignment PIN_F4 -to HEX2[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX2[5]
+set_location_assignment PIN_F10 -to HEX2[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX2[6]
+set_location_assignment PIN_D10 -to HEX3[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX3[0]
+set_location_assignment PIN_D7 -to HEX3[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX3[1]
+set_location_assignment PIN_E6 -to HEX3[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX3[2]
+set_location_assignment PIN_E4 -to HEX3[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX3[3]
+set_location_assignment PIN_E3 -to HEX3[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX3[4]
+set_location_assignment PIN_D5 -to HEX3[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX3[5]
+set_location_assignment PIN_D4 -to HEX3[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX3[6]
+set_location_assignment PIN_A14 -to HEX4[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX4[0]
+set_location_assignment PIN_A13 -to HEX4[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX4[1]
+set_location_assignment PIN_C7 -to HEX4[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX4[2]
+set_location_assignment PIN_C6 -to HEX4[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX4[3]
+set_location_assignment PIN_C5 -to HEX4[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX4[4]
+set_location_assignment PIN_C4 -to HEX4[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX4[5]
+set_location_assignment PIN_C3 -to HEX4[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX4[6]
+set_location_assignment PIN_D3 -to HEX5[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX5[0]
+set_location_assignment PIN_A10 -to HEX5[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX5[1]
+set_location_assignment PIN_A9 -to HEX5[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX5[2]
+set_location_assignment PIN_A7 -to HEX5[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX5[3]
+set_location_assignment PIN_A6 -to HEX5[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX5[4]
+set_location_assignment PIN_A11 -to HEX5[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX5[5]
+set_location_assignment PIN_B6 -to HEX5[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX5[6]
+set_location_assignment PIN_B9 -to HEX6[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX6[0]
+set_location_assignment PIN_B10 -to HEX6[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX6[1]
+set_location_assignment PIN_C8 -to HEX6[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX6[2]
+set_location_assignment PIN_C9 -to HEX6[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX6[3]
+set_location_assignment PIN_D8 -to HEX6[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX6[4]
+set_location_assignment PIN_D9 -to HEX6[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX6[5]
+set_location_assignment PIN_E9 -to HEX6[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX6[6]
+set_location_assignment PIN_E10 -to HEX7[0]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX7[0]
+set_location_assignment PIN_F8 -to HEX7[1]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX7[1]
+set_location_assignment PIN_F9 -to HEX7[2]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX7[2]
+set_location_assignment PIN_C10 -to HEX7[3]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX7[3]
+set_location_assignment PIN_C11 -to HEX7[4]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX7[4]
+set_location_assignment PIN_C12 -to HEX7[5]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX7[5]
+set_location_assignment PIN_D12 -to HEX7[6]
+set_instance_assignment -name IO_STANDARD "2.5 V" -to HEX7[6]
+
+#============================================================
+# PCIe
+#============================================================
+set_location_assignment PIN_V15 -to PCIE_REFCLK_P
+set_instance_assignment -name IO_STANDARD HCSL -to PCIE_REFCLK_P
+set_location_assignment PIN_C29 -to PCIE_WAKE_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to PCIE_WAKE_N
+set_location_assignment PIN_A4 -to PCIE_PERST_N
+set_instance_assignment -name IO_STANDARD "2.5 V" -to PCIE_PERST_N
+set_location_assignment PIN_AB4 -to PCIE_TX_P[0]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to PCIE_TX_P[0]
+set_location_assignment PIN_AC2 -to PCIE_RX_P[0]
+set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to PCIE_RX_P[0]
+# set_location_assignment PIN_Y4 -to PCIE_TX_P[1]
+# set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to PCIE_TX_P[1]
+# set_location_assignment PIN_AA2 -to PCIE_RX_P[1]
+# set_instance_assignment -name IO_STANDARD "1.5-V PCML" -to PCIE_RX_P[1]
+
+#============================================================
+# Fan Control
+#============================================================
+set_location_assignment PIN_AF28 -to FAN_CTRL
+set_instance_assignment -name IO_STANDARD "2.5 V" -to FAN_CTRL
+
+#============================================================
+# End of pin assignments by Terasic System Builder
+#============================================================
+
+
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_global_assignment -name SEARCH_PATH db/ip/pcihellocore/ -tag from_archive
+set_global_assignment -name SEARCH_PATH db/ip/pcihellocore/submodules/ -tag from_archive
+set_global_assignment -name SEARCH_PATH pcihellocore/synthesis/ -tag from_archive
+set_global_assignment -name SEARCH_PATH pcihellocore/synthesis/submodules/ -tag from_archive
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name VERILOG_FILE register.v
+set_global_assignment -name VERILOG_FILE shift.v
+set_global_assignment -name VERILOG_FILE mac.v
+set_global_assignment -name VERILOG_FILE conv.v
+set_global_assignment -name QSYS_FILE pcihellocore.qsys
+set_global_assignment -name SOURCE_FILE pcihellocore.cmp
+set_global_assignment -name SOURCE_FILE pcihello.cmp
+set_global_assignment -name SDC_FILE pcihello.sdc
+set_global_assignment -name VERILOG_FILE pcihello.v
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_rsp_xbar_mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_rsp_xbar_demux.sv
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0_altgx_internal.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0.v
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_irq_mapper.sv
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_inport.v
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_id_router_003.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_id_router.sv
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_hexport.v
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_cmd_xbar_demux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/pcihellocore_addr_router.sv
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_txresp_cntrl.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_txavl_cntrl.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_tx_cntrl.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_tx.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_rx_resp.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_rx_cntrl.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_rx.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_reg_fifo.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_p2a_addrtrans.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_cr_mailbox.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_cr_interrupt.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_cr_avalon.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_control_register.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_app.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_vartrans.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_fixtrans.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_addrtrans.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_lite_app.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpciexpav_clksync.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpcie_rs_serdes.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpcie_pll_125_250.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpcie_pll_100_250.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpcie_pipe_interface.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpcie_pcie_reconfig_bridge.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altera_reset_synchronizer.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altera_reset_controller.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altera_pcie_hard_ip_reset_controller.v
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_width_adapter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_traffic_limiter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_slave_translator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_slave_agent.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_master_translator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_master_agent.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_burst_adapter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_arbitrator.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_merlin_address_alignment.sv
+set_global_assignment -name SYSTEMVERILOG_FILE pcihellocore/synthesis/submodules/altera_irq_clock_crosser.sv
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altera_avalon_st_pipeline_base.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altera_avalon_st_clock_crosser.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/submodules/altera_avalon_sc_fifo.v
+set_global_assignment -name VERILOG_FILE pcihellocore/synthesis/pcihellocore.v
+set_global_assignment -name SDC_FILE pcihello.SDC
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

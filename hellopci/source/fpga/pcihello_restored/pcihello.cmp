@@ -1,0 +1,13 @@
+	component pcihello is
+		port (
+			clk_clk                                : in  std_logic := 'X'; -- clk
+			reset_reset_n                          : in  std_logic := 'X'; -- reset_n
+			pcie_hard_ip_0_rx_in_rx_datain_0       : in  std_logic := 'X'; -- rx_datain_0
+			pcie_hard_ip_0_tx_out_tx_dataout_0     : out std_logic;        -- tx_dataout_0
+			pcie_hard_ip_0_powerdown_pll_powerdown : in  std_logic := 'X'; -- pll_powerdown
+			pcie_hard_ip_0_powerdown_gxb_powerdown : in  std_logic := 'X'; -- gxb_powerdown
+			pcie_hard_ip_0_refclk_export           : in  std_logic := 'X'; -- export
+			pcie_hard_ip_0_pcie_rstn_export        : in  std_logic := 'X'  -- export
+		);
+	end component pcihello;
+

@@ -1,0 +1,196 @@
+Restore Archived Project report for pcihello
+Mon Dec 03 09:24:23 2018
+Quartus II 64-Bit Version 14.1.0 Build 186 12/03/2014 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Mon Dec 03 09:24:23 2018 ;
+; Revision Name                   ; pcihello                              ;
+; Top-level Entity Name           ; pcihello                              ;
+; Family                          ; Cyclone IV GX                         ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello.qar' into the 'C:/Users/8006421.USUARIOS/Documents/hellopci/hellopci/source/fpga/pcihello_restored/' directory
+Info: Generated report 'pcihello.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/14.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 115 warnings
+    Info: Peak virtual memory: 4514 megabytes
+    Info: Processing ended: Mon Dec 03 09:24:23 2018
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++--------------------------------------------------------------+
+; Files Restored                                               ;
++--------------------------------------------------------------+
+; File Name                                                    ;
++--------------------------------------------------------------+
+; db/ip/pcihellocore/submodules/altera_irq_clock_crosser.sv    ;
+; db/ip/pcihellocore/submodules/pcihellocore_addr_router.sv    ;
+; db/ip/pcihellocore/submodules/pcihellocore_cmd_xbar_demux.sv ;
+; db/ip/pcihellocore/submodules/pcihellocore_id_router.sv      ;
+; db/ip/pcihellocore/submodules/pcihellocore_id_router_003.sv  ;
+; db/ip/pcihellocore/submodules/pcihellocore_rsp_xbar_demux.sv ;
+; db/ip/pcihellocore/submodules/pcihellocore_rsp_xbar_mux.sv   ;
++--------------------------------------------------------------+
+
+
++--------------------------------------------------------------------------------+
+; Files Not Restored                                                             ;
++--------------------------------------------------------------------------------+
+; File Name                                                                      ;
++--------------------------------------------------------------------------------+
+; db/ip/pcihellocore/pcihellocore.v                                              ;
+; db/ip/pcihellocore/submodules/altera_avalon_sc_fifo.v                          ;
+; db/ip/pcihellocore/submodules/altera_avalon_st_pipeline_base.v                 ;
+; db/ip/pcihellocore/submodules/altera_merlin_address_alignment.sv               ;
+; db/ip/pcihellocore/submodules/altera_merlin_arbitrator.sv                      ;
+; db/ip/pcihellocore/submodules/altera_merlin_burst_adapter.sv                   ;
+; db/ip/pcihellocore/submodules/altera_merlin_burst_uncompressor.sv              ;
+; db/ip/pcihellocore/submodules/altera_merlin_master_agent.sv                    ;
+; db/ip/pcihellocore/submodules/altera_merlin_master_translator.sv               ;
+; db/ip/pcihellocore/submodules/altera_merlin_slave_agent.sv                     ;
+; db/ip/pcihellocore/submodules/altera_merlin_slave_translator.sv                ;
+; db/ip/pcihellocore/submodules/altera_merlin_traffic_limiter.sv                 ;
+; db/ip/pcihellocore/submodules/altera_merlin_width_adapter.sv                   ;
+; db/ip/pcihellocore/submodules/altera_pci_express.sdc                           ;
+; db/ip/pcihellocore/submodules/altera_pcie_hard_ip_reset_controller.v           ;
+; db/ip/pcihellocore/submodules/altera_reset_controller.sdc                      ;
+; db/ip/pcihellocore/submodules/altera_reset_controller.v                        ;
+; db/ip/pcihellocore/submodules/altera_reset_synchronizer.v                      ;
+; db/ip/pcihellocore/submodules/altpcie_hip_pipen1b_qsys.v                       ;
+; db/ip/pcihellocore/submodules/altpcie_pcie_reconfig_bridge.v                   ;
+; db/ip/pcihellocore/submodules/altpcie_pipe_interface.v                         ;
+; db/ip/pcihellocore/submodules/altpcie_pll_100_250.v                            ;
+; db/ip/pcihellocore/submodules/altpcie_pll_125_250.v                            ;
+; db/ip/pcihellocore/submodules/altpcie_rs_serdes.v                              ;
+; db/ip/pcihellocore/submodules/altpciexpav_clksync.v                            ;
+; db/ip/pcihellocore/submodules/altpciexpav_lite_app.v                           ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_a2p_addrtrans.v                 ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_a2p_fixtrans.v                  ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_a2p_vartrans.v                  ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_app.v                           ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_control_register.v              ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_cr_avalon.v                     ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_cr_interrupt.v                  ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_cr_mailbox.v                    ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_p2a_addrtrans.v                 ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_reg_fifo.v                      ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_rx.v                            ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_rx_cntrl.v                      ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_rx_resp.v                       ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_tx.v                            ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_tx_cntrl.v                      ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_txavl_cntrl.v                   ;
+; db/ip/pcihellocore/submodules/altpciexpav_stif_txresp_cntrl.v                  ;
+; db/ip/pcihellocore/submodules/pcihellocore_hexport.v                           ;
+; db/ip/pcihellocore/submodules/pcihellocore_inport.v                            ;
+; db/ip/pcihellocore/submodules/pcihellocore_irq_mapper.sv                       ;
+; db/ip/pcihellocore/submodules/pcihellocore_pcie_hard_ip_0.v                    ;
+; db/ip/pcihellocore/submodules/pcihellocore_pcie_hard_ip_0_altgx_internal.v     ;
+; incremental_db/compiled_partitions/pcihello.db_info                            ;
+; pcihello.cmp                                                                   ;
+; pcihello.qpf                                                                   ;
+; pcihello.qsf                                                                   ;
+; pcihello.sdc                                                                   ;
+; pcihello.v                                                                     ;
+; pcihello_assignment_defaults.qdf                                               ;
+; pcihellocore.cmp                                                               ;
+; pcihellocore.qsys                                                              ;
+; pcihellocore/synthesis/pcihellocore.v                                          ;
+; pcihellocore/synthesis/submodules/altera_avalon_sc_fifo.v                      ;
+; pcihellocore/synthesis/submodules/altera_avalon_st_clock_crosser.v             ;
+; pcihellocore/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v   ;
+; pcihellocore/synthesis/submodules/altera_avalon_st_pipeline_base.v             ;
+; pcihellocore/synthesis/submodules/altera_irq_clock_crosser.sv                  ;
+; pcihellocore/synthesis/submodules/altera_merlin_address_alignment.sv           ;
+; pcihellocore/synthesis/submodules/altera_merlin_arbitrator.sv                  ;
+; pcihellocore/synthesis/submodules/altera_merlin_burst_adapter.sv               ;
+; pcihellocore/synthesis/submodules/altera_merlin_burst_uncompressor.sv          ;
+; pcihellocore/synthesis/submodules/altera_merlin_master_agent.sv                ;
+; pcihellocore/synthesis/submodules/altera_merlin_master_translator.sv           ;
+; pcihellocore/synthesis/submodules/altera_merlin_slave_agent.sv                 ;
+; pcihellocore/synthesis/submodules/altera_merlin_slave_translator.sv            ;
+; pcihellocore/synthesis/submodules/altera_merlin_traffic_limiter.sv             ;
+; pcihellocore/synthesis/submodules/altera_merlin_width_adapter.sv               ;
+; pcihellocore/synthesis/submodules/altera_pci_express.sdc                       ;
+; pcihellocore/synthesis/submodules/altera_pcie_hard_ip_reset_controller.v       ;
+; pcihellocore/synthesis/submodules/altera_reset_controller.sdc                  ;
+; pcihellocore/synthesis/submodules/altera_reset_controller.v                    ;
+; pcihellocore/synthesis/submodules/altera_reset_synchronizer.v                  ;
+; pcihellocore/synthesis/submodules/altpcie_hip_pipen1b_qsys.v                   ;
+; pcihellocore/synthesis/submodules/altpcie_pcie_reconfig_bridge.v               ;
+; pcihellocore/synthesis/submodules/altpcie_pipe_interface.v                     ;
+; pcihellocore/synthesis/submodules/altpcie_pll_100_250.v                        ;
+; pcihellocore/synthesis/submodules/altpcie_pll_125_250.v                        ;
+; pcihellocore/synthesis/submodules/altpcie_rs_serdes.v                          ;
+; pcihellocore/synthesis/submodules/altpciexpav_clksync.v                        ;
+; pcihellocore/synthesis/submodules/altpciexpav_lite_app.v                       ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_addrtrans.v             ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_fixtrans.v              ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_a2p_vartrans.v              ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_app.v                       ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_control_register.v          ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_cr_avalon.v                 ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_cr_interrupt.v              ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_cr_mailbox.v                ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_p2a_addrtrans.v             ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_reg_fifo.v                  ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_rx.v                        ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_rx_cntrl.v                  ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_rx_resp.v                   ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_tx.v                        ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_tx_cntrl.v                  ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_txavl_cntrl.v               ;
+; pcihellocore/synthesis/submodules/altpciexpav_stif_txresp_cntrl.v              ;
+; pcihellocore/synthesis/submodules/pcihellocore_addr_router.sv                  ;
+; pcihellocore/synthesis/submodules/pcihellocore_cmd_xbar_demux.sv               ;
+; pcihellocore/synthesis/submodules/pcihellocore_hexport.v                       ;
+; pcihellocore/synthesis/submodules/pcihellocore_id_router.sv                    ;
+; pcihellocore/synthesis/submodules/pcihellocore_id_router_003.sv                ;
+; pcihellocore/synthesis/submodules/pcihellocore_inport.v                        ;
+; pcihellocore/synthesis/submodules/pcihellocore_irq_mapper.sv                   ;
+; pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0.v                ;
+; pcihellocore/synthesis/submodules/pcihellocore_pcie_hard_ip_0_altgx_internal.v ;
+; pcihellocore/synthesis/submodules/pcihellocore_rsp_xbar_demux.sv               ;
+; pcihellocore/synthesis/submodules/pcihellocore_rsp_xbar_mux.sv                 ;
++--------------------------------------------------------------------------------+
+
+

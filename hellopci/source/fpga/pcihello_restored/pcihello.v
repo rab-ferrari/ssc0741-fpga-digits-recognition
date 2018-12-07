@@ -95,12 +95,14 @@ wire [31:0] outbus;
 wire [31:0] inbus;
 
 wire clk_boy;
+wire conv_clk;
 wire [31:0] tmp;
 wire [31:0] pxl_out;
 wire valid;
+wire reset;
 reg [31:0] img[27:0][27:0];
-reg [31:0] outBuf = 32'b0;
-reg [31:0] inBuf  = 32'b0;
+reg [31:0] outBuf = 32'b00000000000000000000000000000000;
+reg [31:0] inBuf  = 32'b00000000000000000000000000000000;
 
 //TEST
 wire [9:0] count;
@@ -119,7 +121,7 @@ integer j;
 initial begin
     for (i=0; i<=27; i=i+1)
       for (j=0; j<=27; j=j+1)
-          img[i][j] = 32'b0;
+          img[i][j] = 32'b00000000000000000000000000000000;
 end
 
 //=======================================================
@@ -139,8 +141,8 @@ end
 
 	 
 	 conv c0 (
-		.clk (clk_boy),
-		.reset (SW[0]),
+		.clk (~clk_boy),
+		.reset (reset),
 		.pxl_in (inBuf[15:0]),
 		.reg_00 (reg_00), .reg_01 (reg_01), .reg_02 (reg_02),
 		.reg_10 (reg_10), .reg_11 (reg_11), .reg_12 (reg_12),
@@ -154,7 +156,9 @@ end
 //assign FAN_CTRL = 1'b0; // turn off FAN
 
 assign clk_boy = inbus[31];
-assign tmp = inbus[31:0];
+assign conv_clk = ~clk_boy;
+assign outbus[31:0] = outBuf[31:0];
+assign reset = SW[0] | inbus[30];
 
 always@(posedge clk_boy) begin
 	// salva valor no buffer de entrada (que eh enviado
@@ -162,155 +166,24 @@ always@(posedge clk_boy) begin
 	inBuf[31:0] = inbus[31:0];
 
 	if (valid == 1) begin
-		//outBuf[30:0] = (~pxl_out[30:0]) + 1;
 		outBuf[31:0] = pxl_out[31:0];
-		//outBuf[31] = 0;
 	end else begin
-		outBuf[31:0] = 32'b1;
+		outBuf[31:0] = 32'b11111111111111111111111111111111;
 	end
-
-/*
-	// reset da matriz de convolucao e da contagem
-	if (SW[0] == 1) begin
-		send_receive = 0;
-		pixelx = 0;
-		pixely = 0;
-	end
-	
-	// leitura dos pixels e chamada da convolucao
-	else begin
-		if (send_receive == 0) begin
-			
-		end
-	end
-	
-	else begin
-		if (send_receive == 0) begin
-		// esquecer primeiro lixo de sincronizacao
-			img[pixelx][pixely][31:0] = inbus[31:0];
-			
-			pixely = pixely + 1;
-		
-			//TEST
-			count = count + 1;	
-		
-			if (pixely >= SIZE) begin
-			//if (pixelx >= 1) begin
-				//CHAMAR CONVOLUCAO			
-				pixely = 0;	
-				pixelx = pixelx + 1;
-				
-				if (pixelx >= SIZE) begin
-					pixelx = 0;	
-					send_receive = 1;			
-				end			
-			end		
-		end else begin
-			outBuf[31:0] = img[pixelx][pixely][31:0];		
-			pixely = pixely + 1;
-		
-			//TEST
-			count = count + 1;	
-			
-			if (pixely >= SIZE) begin
-			//if (pixelx >= 1) begin					
-				pixely = 0;	
-				pixelx = pixelx + 1;
-				
-				if (pixelx >= SIZE) begin
-					pixely = 0;
-					pixelx = 0;	
-					send_receive = 0;			
-				end	
-			end
-		end
-	end
-*/
-/*
-	if (send_receive == 0) begin
-		img[pixelx][pixely][31:0] = inbus[31:0];		
-		send_receive = 1;
-		count = count + 1; SIZE*SIZE
-		
-		
-	end else begin
-		outBuf[31:0] = img[pixelx][pixely][31:0];
-		send_receive = 0;
-		count = count + 1;
-	end
-*/	
-/*	if (send_receive == 0) begin
-		
-		// se nao for o primeiro lixo de sincronizacao
-		if (pixelx >= 0) begin
-			img[pixelx][pixely][31:0] = inbus[31:0];
-			pixely = pixely + 1;
-		
-			//TEST
-			count = count + 1;	
-		
-			if (pixely >= 2) begin
-			//if (pixelx >= 1) begin
-				//CHAMAR CONVOLUCAO			
-				pixely = 0;	
-				pixelx = pixelx + 1;
-				
-				if (pixelx >= 2) begin
-					pixelx = 0;	
-					send_receive = 1;			
-				end			
-			end
-		
-		end else begin
-			pixelx = 0;
-			pixely = 0;
-		end
-		
-	end else begin
-		outBuf[31:0] = img[pixelx][pixely][31:0];		
-		pixely = pixely + 1;
-	
-		//TEST
-		count = count + 1;	
-		
-		if (pixely >= 2) begin
-		//if (pixelx >= 1) begin					
-			pixely = 0;	
-			pixelx = pixelx + 1;
-			
-			if (pixelx >= 2) begin
-				pixely = -1;
-				pixelx = -1;	
-				send_receive = 0;			
-			end	
-		end
-	end
-*/
 end
-
-assign outbus[31:0] = outBuf[31:0];
-assign HEX4 = count;
-assign HEX5 = send_receive;
 
 assign LEDG[7] = valid;
 assign LEDG[6:0] = count[6:0];
 
-assign LEDR[17] = SW[0];
+assign LEDR[17] = reset;
 assign LEDR[16] = ~valid;
+assign LEDR[15:0] = outBuf[15:0];
 
-assign LEDR[15:8] = ~inBuf[7:0];
-assign LEDR[7:0] = {~inBuf[31], ~inBuf[6:0]};
+assign HEX7 = inBuf[31:24];
+assign HEX6 = inBuf[23:16];
+assign HEX5 = inBuf[15:8];
+assign HEX4 = inBuf[7:0];
 
-
-assign HEX7 = inBuf[7:0];
-assign HEX6 = inBuf[15:8];
-
-//assign HEX7 = pixelx[7:0];
-//assign HEX6 = pixely[7:0];
-//assign HEX0 = img[pixelx][pixely][7:0];
-//assign HEX1 = img[pixelx][pixely][15:8];
-//assign HEX2 = img[pixelx][pixely][23:16];
-//assign HEX3 = img[pixelx][pixely][31:24];
 assign HEX0 = outBuf[7:0];
 assign HEX1 = outBuf[15:8];
 assign HEX2 = outBuf[23:16];

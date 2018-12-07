@@ -4,12 +4,14 @@
 module shift
 (
   input clk,
-  input [31:0] data_in,
-  output [31:0] data_out
+  input [15:0] data_in,
+  output [15:0] data_out
 );
 
 // Depth = D = n-k; for now assume n to be 5
-parameter D = 2;
+// --> n = 28 (image 28x28), k = 3 (filter 3x3)
+// --> D = 25
+parameter D = 25;
 
 // Define holding register for each bit
 reg [D-1:0] hr_0; reg [D-1:0] hr_1; reg [D-1:0] hr_2; reg [D-1:0] hr_3;
@@ -34,6 +36,7 @@ always @ (posedge clk) begin
   hr_13 [D-1:0] <= {hr_13[D-2:0], data_in[13]};
   hr_14 [D-1:0] <= {hr_14[D-2:0], data_in[14]};
   hr_15 [D-1:0] <= {hr_15[D-2:0], data_in[15]};
+  
 end
 
 assign data_out[0] = hr_0[D-1]; assign data_out[1] = hr_1[D-1];

@@ -14,8 +14,8 @@ module conv(
     );
 
 	//Define constants
-	parameter N = 5;	//Image columns
-	parameter M = 5;	//Image rows
+	parameter N = 28;	//Image columns
+	parameter M = 28;	//Image rows
 	parameter K = 3; 	//Kernel size
 
 	// Intermediate wires
@@ -27,10 +27,14 @@ module conv(
 	//integer kernel_00 = 1; integer kernel_01 = 2; integer kernel_02 = 1;
 	//integer kernel_10 = 0; integer kernel_11 = 0; integer kernel_12 = 0;
 	//integer kernel_20 = 1; integer kernel_21 = 2; integer kernel_22 = 1;	
-	integer kernel_00 = 0; integer kernel_01 = 0; integer kernel_02 = 0;
-	integer kernel_10 = 0; integer kernel_11 = 1; integer kernel_12 = 0;
-	integer kernel_20 = 0; integer kernel_21 = 0; integer kernel_22 = 0;	
-	
+	// NOSSOS FILTROS:
+	// -0.751269  0.866374   -0.353931
+	// 0.511118   2.13662    0.286361
+	// -0.405954  0.887376   -0.222453
+	integer kernel_00 = -75; integer kernel_01 = 87; integer kernel_02 = -35;
+	integer kernel_10 = 51; integer kernel_11 = 21; integer kernel_12 = 29;
+	integer kernel_20 = -40; integer kernel_21 = 89; integer kernel_22 = -22;
+
 	// Row : 1
 	mac mac_00(pxl_in, kernel_00, 0, wire_00);
 	register r_00(clk, reset, wire_00, reg_00); 

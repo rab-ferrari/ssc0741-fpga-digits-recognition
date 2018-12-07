@@ -1,0 +1,28 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst pcihellocore -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst pcihellocore.pcie_hard_ip_0.cal_blk_clk -pg 1
+preplace inst pcihellocore.pcie_hard_ip_0.reset_controller_internal -pg 1
+preplace inst pcihellocore.pcie_hard_ip_0.pcie_rstn_conduit -pg 1
+preplace inst pcihellocore.pcie_hard_ip_0.refclk_conduit -pg 1
+preplace inst pcihellocore.inport -pg 1 -lvl 2 -y 140
+preplace inst pcihellocore.hexport -pg 1 -lvl 2 -y 30
+preplace inst pcihellocore.pcie_hard_ip_0.test_in_conduit -pg 1
+preplace inst pcihellocore.pcie_hard_ip_0.pcie_internal_hip -pg 1
+preplace inst pcihellocore.pcie_hard_ip_0.avalon_reset -pg 1
+preplace inst pcihellocore.pcie_hard_ip_0.avalon_clk -pg 1
+preplace inst pcihellocore.pcie_hard_ip_0.pipe_interface_internal -pg 1
+preplace inst pcihellocore.pcie_hard_ip_0.altgx_internal -pg 1
+preplace inst pcihellocore.pcie_hard_ip_0 -pg 1 -lvl 1 -y 140
+preplace netloc EXPORT<net_container>pcihellocore</net_container>(SLAVE)pcie_hard_ip_0.pcie_rstn,(SLAVE)pcihellocore.pcie_hard_ip_0_pcie_rstn) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>pcihellocore</net_container>(MASTER)pcie_hard_ip_0.pcie_core_clk,(SLAVE)pcie_hard_ip_0.cal_blk_clk,(SLAVE)inport.clk,(SLAVE)hexport.clk,(SLAVE)pcie_hard_ip_0.reconfig_gxbclk,(SLAVE)pcie_hard_ip_0.fixedclk) 1 0 2 210 40 580
+preplace netloc EXPORT<net_container>pcihellocore</net_container>(SLAVE)inport.external_connection,(SLAVE)pcihellocore.inport_external_connection) 1 0 2 NJ 100 NJ
+preplace netloc EXPORT<net_container>pcihellocore</net_container>(SLAVE)pcihellocore.pcie_hard_ip_0_rx_in,(SLAVE)pcie_hard_ip_0.rx_in) 1 0 1 NJ
+preplace netloc EXPORT<net_container>pcihellocore</net_container>(SLAVE)pcihellocore.hexport_external_connection,(SLAVE)hexport.external_connection) 1 0 2 NJ 60 NJ
+preplace netloc EXPORT<net_container>pcihellocore</net_container>(SLAVE)pcie_hard_ip_0.tx_out,(SLAVE)pcihellocore.pcie_hard_ip_0_tx_out) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>pcihellocore</net_container>(MASTER)pcie_hard_ip_0.pcie_core_reset,(SLAVE)inport.reset,(SLAVE)hexport.reset) 1 1 1 600
+preplace netloc EXPORT<net_container>pcihellocore</net_container>(SLAVE)pcihellocore.pcie_hard_ip_0_refclk,(SLAVE)pcie_hard_ip_0.refclk) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>pcihellocore</net_container>(SLAVE)pcie_hard_ip_0.txs,(SLAVE)inport.s1,(SLAVE)pcie_hard_ip_0.cra,(MASTER)pcie_hard_ip_0.bar0,(SLAVE)hexport.s1) 1 0 2 230 80 560
+preplace netloc EXPORT<net_container>pcihellocore</net_container>(SLAVE)pcihellocore.pcie_hard_ip_0_powerdown,(SLAVE)pcie_hard_ip_0.powerdown) 1 0 1 NJ
+levelinfo -pg 1 0 180 790
+levelinfo -hier pcihellocore 190 360 630 780

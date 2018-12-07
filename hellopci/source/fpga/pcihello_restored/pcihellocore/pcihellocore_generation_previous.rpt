@@ -1,0 +1,156 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: ip-generate --project-directory=Z:\hellopci\hellopci\source\fpga\pcihello_restored --output-directory=Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore --report-file=bsf:Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore\pcihellocore.bsf --system-info=DEVICE_FAMILY="Cyclone IV GX" --system-info=DEVICE=EP4CGX150DF31C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore.qsys --remove-qsys-generate-warning
+Progress: Loading pcihello_restored/pcihellocore.qsys
+Progress: Reading input file
+Progress: Adding hexport [altera_avalon_pio 14.1]
+Progress: Parameterizing module hexport
+Progress: Adding inport [altera_avalon_pio 14.1]
+Progress: Parameterizing module inport
+Progress: Adding pcie_hard_ip_0 [altera_pcie_hard_ip 14.1]
+Progress: Parameterizing module pcie_hard_ip_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: pcihellocore.inport: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: pcihellocore.pcie_hard_ip_0:  Rx Master BAR 0 mapped to 16 -bit Avalon-MM address
+Warning: pcihellocore.pcie_hard_ip_0.pcie_hard_ip_0: Module dependency loop involving: "pcie_internal_hip" (altera_pcie_internal_hard_ip_qsys 14.1)
+Warning: pcihellocore.pcie_hard_ip_0.pcie_hard_ip_0: Module dependency loop involving: "avalon_clk" (altera_clock_bridge 14.1), "pcie_internal_hip" (altera_pcie_internal_hard_ip_qsys 14.1)
+Info: pcihellocore.pcie_hard_ip_0.pcie_internal_hip:  Txs Address width is 15
+Info: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: Application clock frequency is 125 Mhz 
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip.app_msi_ack: Interface has no signals
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip.app_msi_num: Interface has no signals
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip.app_msi_req: Interface has no signals
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip.test_out_export: Interface has no signals
+Info: pcihellocore.pcie_hard_ip_0.altgx_internal: Family: Cyclone IV GX
+Info: pcihellocore.pcie_hard_ip_0.altgx_internal: Lanes: 1
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.pcie_core_clk cannot be both connected and exported
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.app_msi_ack must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.rc_rx_analogreset must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.rc_rx_digitalreset must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.app_msi_num must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.app_msi_req must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.msi_interface_export must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.tx_deemph_0 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.tx_margin_0 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.test_out_export must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pipe_interface_internal: pipe_interface_internal.pll_powerdown_pcs must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pipe_interface_internal: pipe_interface_internal.rateswitch_pcs must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pipe_interface_internal: pipe_interface_internal.rateswitchbaseclock_pcs must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_2 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_3 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_4 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_5 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_6 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_7 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_8 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_9 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.reset_controller_internal: reset_controller_internal.reset_n_out cannot be both connected and exported
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.test_in must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.clocks_sim must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.reconfig_busy must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.pipe_ext must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.reconfig_togxb must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.reconfig_fromgxb_0 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: Interrupt sender pcie_hard_ip_0.cra_irq is not connected to an interrupt receiver
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: ip-generate --project-directory=Z:\hellopci\hellopci\source\fpga\pcihello_restored --output-directory=Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore\synthesis --file-set=QUARTUS_SYNTH --report-file=html:Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore\pcihellocore.html --report-file=sopcinfo:Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore.sopcinfo --report-file=cmp:Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore\pcihellocore.cmp --report-file=qip:Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore\synthesis\pcihellocore.qip --report-file=svd:Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore\synthesis\pcihellocore.svd --report-file=regmap:Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore\synthesis\pcihellocore.regmap --report-file=xml:Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore\pcihellocore.xml --report-file=debuginfo:Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore\synthesis\pcihellocore.debuginfo --system-info=DEVICE_FAMILY="Cyclone IV GX" --system-info=DEVICE=EP4CGX150DF31C7 --system-info=DEVICE_SPEEDGRADE=7 --component-file=Z:\hellopci\hellopci\source\fpga\pcihello_restored\pcihellocore.qsys --remove-qsys-generate-warning --language=VERILOG
+Progress: Loading pcihello_restored/pcihellocore.qsys
+Progress: Reading input file
+Progress: Adding hexport [altera_avalon_pio 14.1]
+Progress: Parameterizing module hexport
+Progress: Adding inport [altera_avalon_pio 14.1]
+Progress: Parameterizing module inport
+Progress: Adding pcie_hard_ip_0 [altera_pcie_hard_ip 14.1]
+Progress: Parameterizing module pcie_hard_ip_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: pcihellocore.inport: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: pcihellocore.pcie_hard_ip_0:  Rx Master BAR 0 mapped to 16 -bit Avalon-MM address
+Warning: pcihellocore.pcie_hard_ip_0.pcie_hard_ip_0: Module dependency loop involving: "pcie_internal_hip" (altera_pcie_internal_hard_ip_qsys 14.1)
+Warning: pcihellocore.pcie_hard_ip_0.pcie_hard_ip_0: Module dependency loop involving: "pcie_internal_hip" (altera_pcie_internal_hard_ip_qsys 14.1), "avalon_clk" (altera_clock_bridge 14.1)
+Info: pcihellocore.pcie_hard_ip_0.pcie_internal_hip:  Txs Address width is 15
+Info: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: Application clock frequency is 125 Mhz 
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip.app_msi_ack: Interface has no signals
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip.app_msi_num: Interface has no signals
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip.app_msi_req: Interface has no signals
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip.test_out_export: Interface has no signals
+Info: pcihellocore.pcie_hard_ip_0.altgx_internal: Family: Cyclone IV GX
+Info: pcihellocore.pcie_hard_ip_0.altgx_internal: Lanes: 1
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.pcie_core_clk cannot be both connected and exported
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.app_msi_ack must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.rc_rx_analogreset must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.rc_rx_digitalreset must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.app_msi_num must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.app_msi_req must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.msi_interface_export must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.tx_deemph_0 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.tx_margin_0 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pcie_internal_hip: pcie_internal_hip.test_out_export must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pipe_interface_internal: pipe_interface_internal.pll_powerdown_pcs must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pipe_interface_internal: pipe_interface_internal.rateswitch_pcs must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.pipe_interface_internal: pipe_interface_internal.rateswitchbaseclock_pcs must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_2 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_3 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_4 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_5 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_6 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_7 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_8 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.refclk_conduit: refclk_conduit.conduit_out_9 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0.reset_controller_internal: reset_controller_internal.reset_n_out cannot be both connected and exported
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.test_in must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.clocks_sim must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.reconfig_busy must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.pipe_ext must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.reconfig_togxb must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: pcie_hard_ip_0.reconfig_fromgxb_0 must be exported, or connected to a matching conduit.
+Warning: pcihellocore.pcie_hard_ip_0: Interrupt sender pcie_hard_ip_0.cra_irq is not connected to an interrupt receiver
+Info: pcihellocore: Generating pcihellocore "pcihellocore" for QUARTUS_SYNTH
+Info: hexport: Starting RTL generation for module 'pcihellocore_hexport'
+Info: hexport:   Generation command is [exec C:/altera/14.1/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.1/quartus/bin64/perl/lib -I C:/altera/14.1/quartus/sopc_builder/bin/europa -I C:/altera/14.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.1/quartus/sopc_builder/bin -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=pcihellocore_hexport --dir=C:/Users/9012931/AppData/Local/Temp/alt7847_7286128524266532711.dir/0025_hexport_gen/ --quartus_dir=C:/altera/14.1/quartus --verilog --config=C:/Users/9012931/AppData/Local/Temp/alt7847_7286128524266532711.dir/0025_hexport_gen//pcihellocore_hexport_component_configuration.pl  --do_build_sim=0  ]
+Info: hexport: Done RTL generation for module 'pcihellocore_hexport'
+Info: hexport: "pcihellocore" instantiated altera_avalon_pio "hexport"
+Info: inport: Starting RTL generation for module 'pcihellocore_inport'
+Info: inport:   Generation command is [exec C:/altera/14.1/quartus/bin64/perl/bin/perl.exe -I C:/altera/14.1/quartus/bin64/perl/lib -I C:/altera/14.1/quartus/sopc_builder/bin/europa -I C:/altera/14.1/quartus/sopc_builder/bin/perl_lib -I C:/altera/14.1/quartus/sopc_builder/bin -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/14.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=pcihellocore_inport --dir=C:/Users/9012931/AppData/Local/Temp/alt7847_7286128524266532711.dir/0026_inport_gen/ --quartus_dir=C:/altera/14.1/quartus --verilog --config=C:/Users/9012931/AppData/Local/Temp/alt7847_7286128524266532711.dir/0026_inport_gen//pcihellocore_inport_component_configuration.pl  --do_build_sim=0  ]
+Info: inport: Done RTL generation for module 'pcihellocore_inport'
+Info: inport: "pcihellocore" instantiated altera_avalon_pio "inport"
+Info: pcie_hard_ip_0: "pcihellocore" instantiated altera_pcie_hard_ip "pcie_hard_ip_0"
+Info: mm_interconnect_0: "pcihellocore" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "pcihellocore" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "pcihellocore" instantiated altera_reset_controller "rst_controller"
+Info: pcie_internal_hip: "pcie_hard_ip_0" instantiated altera_pcie_internal_hard_ip_qsys "pcie_internal_hip"
+Info: altgx_internal: Family: Cyclone IV GX
+Info: altgx_internal: Subprotocol: Gen 1-x1
+Info: altgx_internal: qmegawiz -silent module=alt_c3gxb LOCKDOWN_EXCL=PCIE IP_MODE=PCIE_HIP_8 gxb_analog_power=AUTO tx_analog_power=AUTO elec_idle_infer_enable=false tx_allow_polarity_inversion=false rx_cdrctrl_enable=true hip_tx_clkout rx_elecidleinfersel fixedclk enable_0ppm=false pll_powerdown intended_device_family=cycloneiv starting_channel_number=84   deviceFamily="Cyclone IV GX"  wiz_subprotocol="Gen 1-x1"  OPTIONAL_FILES=NONE pcihellocore_pcie_hard_ip_0_altgx_internal.v
+Info: altgx_internal: "pcie_hard_ip_0" instantiated altera_pcie_internal_altgx "altgx_internal"
+Info: reset_controller_internal: "pcie_hard_ip_0" instantiated altera_pcie_internal_reset_controller_qsys "reset_controller_internal"
+Info: pipe_interface_internal: "pcie_hard_ip_0" instantiated altera_pcie_internal_pipe_interface_qsys "pipe_interface_internal"
+Info: pcie_hard_ip_0_bar0_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "pcie_hard_ip_0_bar0_translator"
+Info: pcie_hard_ip_0_cra_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "pcie_hard_ip_0_cra_translator"
+Info: pcie_hard_ip_0_bar0_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "pcie_hard_ip_0_bar0_agent"
+Info: pcie_hard_ip_0_cra_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "pcie_hard_ip_0_cra_agent"
+Info: pcie_hard_ip_0_cra_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "pcie_hard_ip_0_cra_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_004: "mm_interconnect_0" instantiated altera_merlin_router "router_004"
+Info: pcie_hard_ip_0_bar0_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "pcie_hard_ip_0_bar0_limiter"
+Info: Reusing file Z:/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: pcie_hard_ip_0_cra_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "pcie_hard_ip_0_cra_burst_adapter"
+Info: Reusing file Z:/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file Z:/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: pcie_hard_ip_0_cra_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "pcie_hard_ip_0_cra_rsp_width_adapter"
+Info: Reusing file Z:/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file Z:/hellopci/hellopci/source/fpga/pcihello_restored/pcihellocore/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+Info: pcihellocore: Done "pcihellocore" with 26 modules, 65 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
